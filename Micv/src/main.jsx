@@ -3,6 +3,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import Inicio from "./components/inicio/inicio";
 import Sobremi from "./components/sobremi/Sobremi"
+import Portafolio from "./components/portafolio/Portafolio";
 
 
 const routesFromElements = createRoutesFromElements (
@@ -11,6 +12,7 @@ const routesFromElements = createRoutesFromElements (
     <Route path='/' element={<Inicio />} />
     <Route path='/inicio' element={<Inicio />} />
     <Route path='/sobremi' element={<Sobremi />} />
+    <Route path='/portafolio' element={<Portafolio />} />
 </Route>
 );
 const router = createBrowserRouter(routesFromElements);

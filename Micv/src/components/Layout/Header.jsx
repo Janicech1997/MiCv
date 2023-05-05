@@ -20,12 +20,7 @@ function Header () {
           <Nav className="justify-content-end flex-grow-1 pe-3">
             <Nav.Link href="/inicio" >Inicio</Nav.Link>
             <Nav.Link href="/sobremi">Sobre mi</Nav.Link>
-            <NavDropdown title="Portafolio" id="collasible-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Diseño</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                Desarrollo web
-              </NavDropdown.Item>
-            </NavDropdown>
+            <Nav.Link href="/portafolio">Portafolio</Nav.Link>
           </Nav>
           <Nav>
             <Nav.Link href="#deets">Contactos</Nav.Link>

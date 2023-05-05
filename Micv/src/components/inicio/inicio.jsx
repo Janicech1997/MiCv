@@ -2,6 +2,10 @@ import React from 'react'
 import Header from "../Layout/Header"
 import Footer from "../Layout/Footer"
 import classes from "../inicio/Inicio.module.css"
+import { BsGithub, BsTiktok, BsLinkedin, BsTwitch } from "react-icons/bs";
+
+
+
 
 const inicio = () => {
   return (
@@ -10,13 +14,31 @@ const inicio = () => {
       <div className={classes.inicio}>
       <main className={classes.main}>
   <div className={classes.infocontent}>
-    <h1>Soy <span>Janice</span> Chen</h1>
-    <p>conoceme más</p>
-    <a download href="#"><button className={classes.downloadcv}>Download CV</button></a>
+    <h1>Me llamo <span className={classes.span}>Janice Chen</span></h1>
+    <div className={classes.Iam}>
+  <p>Soy</p>
+  <b>
+    <div className={classes.innerIam}>
+      Diseñadora<br /> 
+      Developer<br />
+    </div>
+  </b>
+    <div className={classes.redes}>
+      <span className={classes.redes}><ul className={classes.titulu}>
+         <li><a href="https://github.com/Janicech1997"><BsGithub/></a></li>
+         <li><a href="https://www.linkedin.com/in/janice-chen-31ab47152/"><BsLinkedin/></a></li>
+         <li><a href="https://www.tiktok.com/@heyjaniz"><BsTiktok/></a></li>
+         <li><a href="https://www.twitch.tv/heyjaniz"><BsTwitch/></a></li>
+      </ul></span>
+    </div>
+</div>
   </div>
   <img src="/fotocircular.png" alt />
 </main>
+<div>
 </div>
+</div>
+
 
 
       <Footer/>
