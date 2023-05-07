@@ -22,9 +22,6 @@ function Header () {
             <Nav.Link href="/sobremi">Sobre mi</Nav.Link>
             <Nav.Link href="/portafolio">Portafolio</Nav.Link>
           </Nav>
-          <Nav>
-            <Nav.Link href="#deets">Contactos</Nav.Link>
-          </Nav>
         </Navbar.Collapse>
       </Container>
     </Navbar>
