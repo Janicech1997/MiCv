@@ -1,7 +1,7 @@
 import { Route, createRoutesFromElements, createBrowserRouter, RouterProvider } from "react-router-dom";
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Inicio from "./components/inicio/inicio";
+import Inicio from "./components/inicio/Inicio";
 import Sobremi from "./components/sobremi/Sobremi"
 import Portafolio from "./components/portafolio/Portafolio";
 

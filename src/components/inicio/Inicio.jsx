@@ -4,9 +4,6 @@ import Footer from "../Layout/Footer"
 import classes from "../inicio/Inicio.module.css"
 import { BsGithub, BsBehance, BsLinkedin } from "react-icons/bs";
 
-
-
-
 const inicio = () => {
   return (
     <div>
@@ -37,10 +34,7 @@ const inicio = () => {
 <div>
 </div>
 </div>
-
-
-
-      <Footer/>
+<Footer/>
     </div>
   )
 }
