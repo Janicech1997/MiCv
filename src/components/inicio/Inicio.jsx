@@ -6,7 +6,7 @@ import { BsGithub, BsBehance, BsLinkedin } from "react-icons/bs";
 
 const inicio = () => {
   return (
-    <div>
+    <div className={classes.todo}>
       <Header/>
       <div className={classes.inicio}>
       <main className={classes.main}>
@@ -29,7 +29,7 @@ const inicio = () => {
     </div>
 </div>
   </div>
-  <img src="/fotocircular.png" alt />
+  <img className={classes.img} src="/fotocircular.png" alt />
 </main>
 <div>
 </div>

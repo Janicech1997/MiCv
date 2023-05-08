@@ -4,7 +4,7 @@ import Footer from "../Layout/Footer";
 import classes from "../portafolio/Portafolio.module.css"
 const Portafolio = () => {
   return (
-    <div>
+    <div className={classes.portatodo}>
         <Header/>
         <div className={classes.fondo}>
      <section id="portfolio" className={classes.portfolio}>
@@ -12,7 +12,7 @@ const Portafolio = () => {
   <div className={classes.fila}>
     <div className={classes.proyecto}>
       <div className={classes.overlay} />
-      <img src="/proyecto1.png" alt />
+      <img src="/proyecto1.png" />
       <div className={classes.info}>
       <a href="https://github.com/Janicech1997/Proyecto1.git" target="_blank">
       <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" className={classes.github} viewBox="0 0 16 16">
@@ -24,7 +24,7 @@ const Portafolio = () => {
     </div>
     <div className={classes.proyecto}>
       <div className={classes.overlay} />
-      <img src="/proyecto2.png" alt />
+      <img src="/proyecto2.png" />
       <div className={classes.info}>
       <a href="https://github.com/Janicech1997/Proyecto2.git" target="_blank">
       <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" className={classes.github} viewBox="0 0 16 16">
@@ -50,7 +50,7 @@ const Portafolio = () => {
   <div className={classes.fila}>
     <div className={classes.proyecto}>
       <div className={classes.overlay} />
-      <img src="/proyecto4.png" alt />
+      <img src="/proyecto4.png" />
       <div className={classes.info}>
       <a href="https://github.com/Janicech1997/Proyecto4.git" target="_blank">
       <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" className={classes.github} viewBox="0 0 16 16">
@@ -62,7 +62,7 @@ const Portafolio = () => {
     </div>
     <div className={classes.proyecto}>
       <div className={classes.overlay} />
-      <img src="/proyecto5.png" alt />
+      <img src="/proyecto5.png" />
       <div className={classes.info}>
       <a href="https://github.com/Janicech1997/PROYECTO5-GG.git" target="_blank">
       <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" className={classes.github} viewBox="0 0 16 16">
@@ -74,7 +74,7 @@ const Portafolio = () => {
     </div>
     <div className={classes.proyecto}>
       <div className={classes.overlay} />
-      <img src="/proyecto7.png" alt />
+      <img src="/proyecto7.png" />
       <div className={classes.info}>
       <a href="https://drive.google.com/file/d/1NIrwbC7P7zCkSLxpw7JB12TaeiT86ukg/view?usp=sharing" target="_blank">
       <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" className={classes.github} viewBox="0 0 16 16">
@@ -90,7 +90,7 @@ const Portafolio = () => {
   <div className={classes.fila}>
     <div className={classes.proyecto}>
       <div className={classes.overlay} />
-      <img src="/brand.png" alt />
+      <img src="/brand.png" />
       <div className={classes.info}>
       <a href="https://www.behance.net/gallery/92898527/Logofolio-JC" target="_blank">
       <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" className={classes.github} viewBox="0 0 16 16">
@@ -102,7 +102,7 @@ const Portafolio = () => {
     </div>
     <div className={classes.proyecto}>
       <div className={classes.overlay} />
-      <img src="/publi.png" alt />
+      <img src="/publi.png"  />
       <div className={classes.info}>
       <a href="https://www.behance.net/gallery/169942289/Publicidad-disenados" target="_blank">
       <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" className={classes.github} viewBox="0 0 16 16">
@@ -115,7 +115,7 @@ const Portafolio = () => {
     <div className={classes.proyecto}>
       <div className={classes.overlay} />
       
-      <img src="/foto.png" alt />
+      <img src="/foto.png"  />
       <div className={classes.info}>
       <a href="https://www.behance.net/gallery/92879261/Photos-Ladys" target="_blank">
       <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" className={classes.github} viewBox="0 0 16 16">

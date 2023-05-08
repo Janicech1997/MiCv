@@ -4,10 +4,10 @@
     flex-direction: column;
     height: 90vh;
     background: black;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-repeat: repeat;
     background-position: center center;
     font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
   }
   .main {
     margin: 0 auto;
@@ -29,13 +29,14 @@
   }
   
   
-  .main img {
+  .img {
     border: 7px solid #E3B2D3;
     border-radius: 50%;
     width: 350px;
     height: 350px;
     z-index: 1;
   }
+  
   .span {
     display: block;
     font-family: monospace;
@@ -136,7 +137,7 @@
           60% { top: -150px; }
           80% { top: -200px; }
       }
-
+     
       .botonfin{
         cursor: pointer;
         background-color: transparent;
@@ -260,4 +261,17 @@
         color: #ff1a1a;
         box-shadow: 0 0 16px #E3B2D3;
         text-shadow: 0 0 16px #E3B2D3;
+      }
+      @media screen and (max-width: 800px) {
+        .img {
+            width: 200px;
+            height: 200px;
+            position:absolute;
+        }
+        .main {
+          position: relative;
+          display: inline-block;
+          width: 100%;
+
+      }
       }
