@@ -22,9 +22,9 @@ const inicio = () => {
   </b>
     <div className={classes.redes}>
       <span className={classes.redes}><ul className={classes.titulu}>
-         <li><a href="https://github.com/Janicech1997" target="_blank"><BsGithub/></a></li>
-         <li><a href="https://www.linkedin.com/in/janice-chen-31ab47152/" target="_blank"><BsLinkedin/></a></li>
-         <li><a href="https://www.behance.net/janicechen1997" target="_blank"><BsBehance/></a></li>
+         <li><a href="https://github.com/Janicech1997" target="_blank" className={classes.github}><BsGithub/></a></li>
+         <li><a href="https://www.linkedin.com/in/janice-chen-31ab47152/" target="_blank" className={classes.github}><BsLinkedin/></a></li>
+         <li><a href="https://www.behance.net/janicechen1997" target="_blank" className={classes.github}><BsBehance/></a></li>
       </ul></span>
     </div>
 </div>

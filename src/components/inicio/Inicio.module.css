@@ -262,6 +262,9 @@
         box-shadow: 0 0 16px #E3B2D3;
         text-shadow: 0 0 16px #E3B2D3;
       }
+      .github{
+        color: white;
+      }
       @media screen and (max-width: 800px) {
         .img {
             width: 200px;
