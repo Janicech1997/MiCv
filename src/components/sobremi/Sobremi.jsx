@@ -176,7 +176,7 @@ const sobremi = () => {
               </div>
             </div>
             <button>
-            <a href="https://1drv.ms/b/s!AtURtUUlXY2DhU0zM8HJqPSXUJX5?e=ERqnoo" target="_blank" className={classes.textodes}>Descargar CV Español </a>
+            <a href="https://1drv.ms/b/s!AtURtUUlXY2DhU9F6sfIvi8qN9bj?e=G7ijaQ" target="_blank" className={classes.textodes}>Descargar CV Español </a>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
