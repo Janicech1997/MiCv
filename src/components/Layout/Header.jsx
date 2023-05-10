@@ -17,9 +17,10 @@ function Header () {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="justify-content-end flex-grow-1 pe-3">
-            <Nav.Link href="/inicio" >Inicio</Nav.Link>
-            <Nav.Link href="/sobremi">Sobre mi</Nav.Link>
-            <Nav.Link href="/portafolio">Portafolio</Nav.Link>
+            <Nav.Link href="#inicio" >Inicio</Nav.Link>
+            <Nav.Link href="#sobremi">Sobre mi</Nav.Link>
+            <Nav.Link href="#portafolio">Portafolio</Nav.Link>
+            <Nav.Link href="#contacto">Contactos</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
