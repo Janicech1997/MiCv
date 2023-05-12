@@ -2,7 +2,7 @@ import React from 'react'
 import Header from "../Layout/Header"
 import Footer from "../Layout/Footer"
 import classes from "../inicio/Inicio.module.css"
-import { BsGithub, BsBehance, BsLinkedin } from "react-icons/bs";
+import { BsGithub, BsBehance, BsLinkedin, BsWhatsapp } from "react-icons/bs";
 
 const inicio = () => {
   return (
@@ -25,6 +25,7 @@ const inicio = () => {
          <li><a href="https://github.com/Janicech1997" target="_blank" className={classes.github}><BsGithub/></a></li>
          <li><a href="https://www.linkedin.com/in/janice-chen-31ab47152/" target="_blank" className={classes.github}><BsLinkedin/></a></li>
          <li><a href="https://www.behance.net/janicechen1997" target="_blank" className={classes.github}><BsBehance/></a></li>
+         <li><a href="https://api.whatsapp.com/send?phone=593960950555" target="_blank" className={classes.github}><BsWhatsapp/></a></li>
       </ul></span>
     </div>
 </div>
