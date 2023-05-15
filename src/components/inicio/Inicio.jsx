@@ -16,8 +16,8 @@ const inicio = () => {
   <p>Soy</p>
   <b>
     <div className={classes.innerIam}>
-      Diseñadora<br /> 
-      Developer<br />
+      Diseñadora <br />
+      Developer  <br />
     </div>
   </b>
     <div className={classes.redes}>
@@ -239,31 +239,70 @@ const inicio = () => {
   {/* Technology Stack #1: Languages */}
   <h2>Design</h2>
   <div className={classes.tech}>
+    <div>
     <img src="https://icongr.am/devicon/illustrator-plain.svg?size=100&color=ff8b3d" />
+    <p>Adobe Illustrador</p>
+    </div>
+    <div>
     <img src="https://icongr.am/devicon/photoshop-plain.svg?size=100&color=3dbeff"  />
+    <p>Adobe Photoshop</p>
+    </div>
+    <div>
     <img src="https://images.vexels.com/media/users/3/163292/isolated/lists/3087de3a36b76b94e9178fd791d7886e-premiere-pro-pr-icono-de-color.png" width={100}  height={100} />
+    <p>Adobe Premiere</p>
+    </div>
+    <div>
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Adobe_XD_CC_icon.svg/2101px-Adobe_XD_CC_icon.svg.png" width={100}  height={100}/>
+    <p>Adobe XD</p>
+    </div>
+    <div>
     <img src="https://cdn.freebiesupply.com/logos/large/2x/figma-1-logo-png-transparent.png" width={70}  height={100}/>
-
+    <p>Figma</p>
+    </div>
     <i className="devicon-javascript-plain colored" />
  <br />
   </div>
   <h2>Front-End</h2>
   <div className={classes.tech}>
+    <div>
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/1200px-Bootstrap_logo.svg.png" width={125}  height={100}  />
+    <p>Bootstrap</p>
+    </div>
+    <div>
     <img src="https://icongr.am/devicon/javascript-original.svg?size=100&color=currentColor" />
+    <p>Javascript</p>
+    </div>
+    <div>
     <img src="https://icongr.am/devicon/react-original-wordmark.svg?size=100&color=f57575"  />
+    <p>React</p>
+    </div>
+    <div>
     <img src="https://icongr.am/devicon/html5-original.svg?size=101&color=ffffff" />
+    <p>Html5</p>
+    </div>
+    <div>
     <img src="https://icongr.am/devicon/css3-original.svg?size=101&color=ffffff" />
+    <p>Css3</p>
+    </div>
     <i className="devicon-bootstrap-plain-wordmark colored" />
 <br />
   </div>
   <h2>Back-End</h2>
   <div className={classes.tech}>
-    <img src="https://icongr.am/devicon/express-original-wordmark.svg?size=101&color=f57575" alt="" />
-    <img src="https://icongr.am/devicon/nodejs-original.svg?size=101&color=f57575" alt="" />
-    <img src="https://icongr.am/devicon/mysql-plain-wordmark.svg?size=101&color=ffffff" alt="" />
-    <img src="https://icongr.am/devicon/mongodb-plain-wordmark.svg?size=101&color=ffffff" alt="" />
+    <div>
+    <img src="https://icongr.am/devicon/express-original-wordmark.svg?size=101&color=f57575" />
+    </div>
+    <div>
+    <img src="https://icongr.am/devicon/nodejs-original.svg?size=101&color=f57575" />
+    <p>Nodejs</p>
+    </div>
+    <div>
+    <img src="https://icongr.am/devicon/mysql-plain-wordmark.svg?size=101&color=ffffff" />
+    <p>MySQL</p>
+    </div>
+    <div>
+    <img src="https://icongr.am/devicon/mongodb-plain-wordmark.svg?size=101&color=ffffff" />
+    </div>
 <br />
   </div>
   </div>
