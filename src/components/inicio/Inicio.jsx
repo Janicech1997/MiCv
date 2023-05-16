@@ -1,10 +1,28 @@
 import React from 'react'
 import Header from "../Layout/Header"
 import Footer from "../Layout/Footer"
+import { db } from "../../firebase/firebase"
+import { addDoc,collection} from 'firebase/firestore'
+import { useState } from 'react'
 import classes from "../inicio/Inicio.module.css"
 import { BsGithub, BsBehance, BsLinkedin, BsWhatsapp } from "react-icons/bs";
 
 const inicio = () => {
+  
+  const [nombre, setName] = useState("")
+  const [email, setEmail] = useState("")
+  const [asunto, setAsunto] = useState("")
+  const [mensaje, setMensaje] = useState("")
+  const useCollectionRef = collection(db, 'contactos-cv')
+  
+  const handleSubmit = () => {
+      addDoc(useCollectionRef, {
+        nombre:nombre,
+        email:email,
+        asunto:asunto,
+        mensaje:mensaje
+      })
+  }
   return (
     <div className={classes.todo}>
       <Header/>
@@ -437,16 +455,28 @@ const inicio = () => {
   <div className={classes.contenedorform}>
     <form className={classes.inputall}>
       <div className={classes.fitatotal}>
-        <input type="text" placeholder="Nombre Completo *" className={classes.inputmitad} />
-        <input type="email" placeholder="Dirección de Email" className={classes.inputmitad} />
+        <input type="text" placeholder="Nombre Completo *" className={classes.inputmitad} 
+        onChange={(event)=>{
+          setName(event.target.value)
+        }} />
+        <input type="email" placeholder="Dirección de Email" className={classes.inputmitad}
+        onChange={(event)=>{
+          setEmail(event.target.value)
+        }} />
       </div>
       <div className={classes.fila}>
-        <input type="text" placeholder="Tema..." className={classes.inputfull} />
+        <input type="text" placeholder="Asunto" className={classes.inputfull}
+        onChange={(event)=>{
+          setAsunto(event.target.value)
+        }} />
       </div>
       <div className={classes.fila}>
-        <textarea name id cols={30} rows={10} placeholder="Tu Mensaje..." className={classes.inputfull} defaultValue={""} />
+        <textarea type="text" name id cols={30} rows={10} placeholder="Tu Mensaje..." className={classes.inputfull} 
+        onChange={(event)=>{
+          setMensaje(event.target.value)
+        }}/>
       </div>
-      <input type="submit" defaultValue="Enviar Mensaje" className={classes.btnenviar} />
+      <button onClick={handleSubmit} className={classes.btnenviar}>Enviar</button>
     </form>
   </div>
 </section>

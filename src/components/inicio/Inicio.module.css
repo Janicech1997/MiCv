@@ -535,6 +535,7 @@
         cursor: pointer;
         transition: .5s;
         padding: 10px 15px !important;
+        border-radius: 10px;
     }
     
     .btnenviar:hover {
