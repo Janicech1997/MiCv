@@ -435,7 +435,7 @@ const inicio = () => {
     </div>
     <div>
     <img src="https://icongr.am/devicon/nodejs-original.svg?size=101&color=f57575" />
-    <p>Nodejs</p>
+    <p>Node.js</p>
     </div>
     <div>
     <img src="https://icongr.am/devicon/mysql-plain-wordmark.svg?size=101&color=ffffff" />
