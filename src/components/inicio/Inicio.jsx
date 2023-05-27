@@ -344,7 +344,7 @@ const inicio = () => {
               </div>
             </div>
             <button>
-            <a href="https://1drv.ms/b/s!AtURtUUlXY2DhU9F6sfIvi8qN9bj?e=G7ijaQ" target="_blank" className={classes.textodes}>Descargar CV Español </a>
+            <a href="/CurriculumSpanish.pdf" target="_blank" className={classes.textodes}>Descargar CV Español </a>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
@@ -359,7 +359,7 @@ const inicio = () => {
               <span className={classes.overlay} />
             </button>
             <button>
-            <a href="https://1drv.ms/b/s!AtURtUUlXY2DhU6YQ1f5vlPROUmO?e=ENYXEW" target="_blank" className={classes.textodes}>Descargar CV Inglés </a>
+            <a href="/CurriculumEnglish.pdf" target="_blank" className={classes.textodes}>Descargar CV Inglés </a>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
